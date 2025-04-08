@@ -1,15 +1,34 @@
-### Mecânica
+**Apresente os elementos formais do jogo**
 
-- Apresente os elementos formais do jogo
-    - Qual o padrão de interação do jogador?
-    - Qual o objetivo do jogo? 
-        - Quando o jogador ganha?
-        - Quando o jogador perde?
-    - Quais são as regrsas do jogo?
-    - Quais são os procedimentos do jogo?
-    - Quais os recursos do jogo?
-    - Quais os limites do jogo?
-    - Quais os resultados do jogo?
-        - Como ele termina depois da vitoria
-        - Como ele termina depois da derrota
+- **Padrão de interação do jogador:**
+Singleplayer, movimentação livre no mapa, combate e estratégias de sobrevivência.
 
+- **Objetivo:**
+Sobreviver às ondas de inimigos e derrotar o chefe final para se formar.
+
+- **Quando o jogador ganha?**
+Ao derrotar o chefe da última fase.
+
+- **Quando o jogador perde?**
+Quando sua vida chega a zero.
+
+- **Regras:**
+Enfrentar ondas de inimigos, coletar power-ups, melhorar habilidades e derrotar o chefe.
+
+- **Procedimentos:**
+Movimentação no mapa, combate contra inimigos, coleta de upgrades.
+
+- **Recursos:**
+Vida, itens e experiência.
+
+- **Limites:**
+Vida limitada, morte permanente (rogue-like).
+
+- **Resultados:**
+Vitória com graduação ou derrota (largar o curso), com possibilidade de recomeço utilizando aprendizado adquirido.
+
+- **Como termina depois da vitória:**
+Cena de formatura, encerrando a jornada com sucesso.
+
+- **Como termina depois da derrota:**
+Reinício da graduação, talvez alguma outra cena.
