@@ -3,11 +3,9 @@ Trabalho de Desenvolvimento de Jogos apresentado ao Centro Universitário [FEI](
 
 ## Componentes do Grupo
 
-- Nome Componente 1
-- Nome Componente 2
-- Nome Componente 3
-- Nome Componente 4
-- Nome Componente 5
+- Enzo Lima Cassin
+- Guilherme da Abreu Guimaraes
+- Matheus Miranda Vieira
 
 ## Tópicos
 - [Introdução](./docs/1-introducao.md)
