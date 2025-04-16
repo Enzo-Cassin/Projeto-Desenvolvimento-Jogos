@@ -63,3 +63,13 @@
     - Movimento do projétil.
     - Aplica dano nos inimigos.
     - Some ao atingir inimigo ou sair da tela.
+
+# Protótipos
+
+![image](https://github.com/user-attachments/assets/1c0a5c13-5543-4068-af33-2e9c05d2114b)
+![image](https://github.com/user-attachments/assets/b0c2d0d6-04d6-4147-bde8-281e5f6801d2)
+![image](https://github.com/user-attachments/assets/b1bffa03-5720-43c2-b2f4-648f22b83862)
+![image](https://github.com/user-attachments/assets/9d97ccad-fdf9-407f-83fa-744bac36eba8)
+
+
+
