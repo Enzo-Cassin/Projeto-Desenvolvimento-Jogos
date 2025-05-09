@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FP_sprite_com_interior_branco_0: 7156338774832121042
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

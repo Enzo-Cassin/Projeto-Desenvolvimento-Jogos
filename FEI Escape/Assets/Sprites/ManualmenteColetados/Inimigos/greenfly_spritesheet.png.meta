@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      greenfly_spritesheet_0: 8992042780091347674
+      greenfly_spritesheet_1: -8400332166158713218
+      greenfly_spritesheet_2: 4779789336270126822
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

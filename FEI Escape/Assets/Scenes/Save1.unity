@@ -226,63 +226,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1489504844}
   offset: {x: 0, y: 0, z: -10}
---- !u!1001 &115235060
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1900089465946361884, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_Name
-      value: MoscaVerde (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 4.5946674
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.3619465
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
 --- !u!1 &202440205
 GameObject:
   m_ObjectHideFlags: 0
@@ -338,462 +281,52 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   currentChunk: {fileID: 0}
---- !u!1001 &317181320
-PrefabInstance:
+--- !u!1 &633841812
+GameObject:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1900089465946361884, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_Name
-      value: MoscaVerde (8)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.8492603
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.5777022
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
---- !u!1001 &519982387
-PrefabInstance:
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 633841813}
+  - component: {fileID: 633841814}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &633841813
+Transform:
   m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633841812}
   serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1900089465946361884, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_Name
-      value: MoscaVerde (5)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.9279275
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.3212342
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
---- !u!1001 &542191480
-PrefabInstance:
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.5117216, y: 0.7940482, z: -0.014341385}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &633841814
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1900089465946361884, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_Name
-      value: MoscaVerde (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.020606
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.4688597
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
---- !u!1001 &681547020
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1900089465946361884, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_Name
-      value: MoscaVerde (9)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.6046524
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.1679815
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
---- !u!1001 &853100777
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1900089465946361884, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_Name
-      value: MoscaVerde (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.4990628
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.3255377
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
---- !u!1001 &1243453065
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1900089465946361884, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_Name
-      value: MoscaVerde (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -6.9947343
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -1.523584
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
---- !u!1001 &1277847956
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1900089465946361884, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_Name
-      value: MoscaVerde (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.891296
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.8931979
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
---- !u!1001 &1440493043
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1900089465946361884, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_Name
-      value: MoscaVerde (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -4.3115535
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -2.4287534
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5768512138799732581, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 633841812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23f0aec7cc70b1348b33365b8fea7e96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves: []
+  currentWaveCount: 0
 --- !u!1 &1489504839
 GameObject:
   m_ObjectHideFlags: 0
@@ -5497,12 +5030,4 @@ SceneRoots:
   - {fileID: 8929192019409855571}
   - {fileID: 202440206}
   - {fileID: 7956923154391968669}
-  - {fileID: 1277847956}
-  - {fileID: 542191480}
-  - {fileID: 115235060}
-  - {fileID: 853100777}
-  - {fileID: 519982387}
-  - {fileID: 1243453065}
-  - {fileID: 1440493043}
-  - {fileID: 317181320}
-  - {fileID: 681547020}
+  - {fileID: 633841813}
