@@ -21,6 +21,8 @@ public class PlayerStats : MonoBehaviour
     [HideInInspector]
     public float currentMagnet;
 
+    public List<GameObject> spawnedWeapons;
+
     //Experience and level of the player
     [Header("Experience/Level")]
     public int experience = 0;
@@ -40,6 +42,8 @@ public class PlayerStats : MonoBehaviour
     public int itemIndex;
     void Awake()
     {
+        characterData = CharacterSelector.GetData();
+        CharacterSelector.instance.DestroySingleton();
         inventory = GetComponent<InventoryManager>();
 
         //Assign the variables
@@ -49,6 +53,8 @@ public class PlayerStats : MonoBehaviour
         currentmight = characterData.Might;
         currentProjectileSpeed = characterData.ProjectileSpeed;
         currentMagnet = characterData.Magnet;
+
+        SpawnWeapon(characterData.StartingWeapon);
     }
 
     void Update()
@@ -132,8 +138,12 @@ public class PlayerStats : MonoBehaviour
         }
     }
 
-    public void SpawnWeapon()
+    public void SpawnWeapon(GameObject weapon)
     {
-            
+        GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
+        spawnedWeapon.transform.SetParent(transform);
+        spawnedWeapons.Add(spawnedWeapon);
+
+        //armaIndex++;
     }
 }

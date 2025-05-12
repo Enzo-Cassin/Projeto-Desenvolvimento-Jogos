@@ -21,9 +21,15 @@ public class CharacterSelector : MonoBehaviour
     public static PersonagemSO GetData() 
     {
         return instance.personagemData;
-    }
+    } 
 
     public void SelecionarPersonagem(PersonagemSO personagem){
         personagemData = personagem;
+    }
+
+    public void DestroySingleton()
+    {
+        instance = null;
+        Destroy(gameObject);
     }
 }
