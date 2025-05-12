@@ -13,3 +13,5 @@ MonoBehaviour:
   m_Name: Estudos Passive Item
   m_EditorClassIdentifier: 
   multiplier: 100
+  level: 1
+  nextLevelPrefab: 0

@@ -168,7 +168,7 @@ public class PlayerStats : MonoBehaviour
 
         GameObject spawnedItem = Instantiate(item, transform.position, Quaternion.identity);
         spawnedItem.transform.SetParent(transform);
-        inventory.AddItem(armaIndex, spawnedItem.GetComponent<PassiveItem>());
+        inventory.AddItem(itemIndex, spawnedItem.GetComponent<PassiveItem>());
         itemIndex++;
     }
 }

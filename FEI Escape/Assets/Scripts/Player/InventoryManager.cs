@@ -11,20 +11,49 @@ public class InventoryManager : MonoBehaviour
     public void AddWeapon(int slotIndex, ArmasController arma)
     {
         slotArmas[slotIndex] = arma;
+        weaponLvl[slotIndex] = arma.weaponData.Level;
     }
 
     public void AddItem(int slotIndex, PassiveItem item)
     {
         slotItens[slotIndex] = item;
+        itensLvl[slotIndex] = item.passiveItemData.Level;
     }
 
     public void LevelUpWeapon(int slotIndex)
     {
+        if(slotArmas.Count > slotIndex)
+        { 
+            ArmasController weapon = slotArmas[slotIndex];
 
+            if(!weapon.weaponData.NextLevelPrefab)
+            {
+                Debug.LogError($"{weapon} já está no ultimo level");
+                return;
+            }
+            GameObject upgradedWeapon = Instantiate(weapon.weaponData.NextLevelPrefab, transform.position, Quaternion.identity);
+            upgradedWeapon.transform.SetParent(transform);
+            AddWeapon(slotIndex, upgradedWeapon.GetComponent<ArmasController>());
+            Destroy(weapon.gameObject);
+            weaponLvl[slotIndex] = upgradedWeapon.GetComponent<ArmasController>().weaponData.Level;
+        }
     }
 
     public void LevelUpItem(int slotIndex)
     {
-        
+        if(slotItens.Count > slotIndex)
+        { 
+            PassiveItem item = slotItens[slotIndex];
+            if(!item.passiveItemData.NextLevelPrefab)
+            {
+                Debug.LogError($"{item} já está no ultimo level");
+                return;
+            }
+            GameObject upgradeditem = Instantiate(item.passiveItemData.NextLevelPrefab, transform.position, Quaternion.identity);
+            upgradeditem.transform.SetParent(transform);
+            AddItem(slotIndex, upgradeditem.GetComponent<PassiveItem>());
+            Destroy(item.gameObject);
+            itensLvl[slotIndex] = upgradeditem.GetComponent<PassiveItem>().passiveItemData.Level;
+        }
     }
 }
