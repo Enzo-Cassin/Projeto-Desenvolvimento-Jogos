@@ -226,51 +226,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1489504844}
   offset: {x: 0, y: 0, z: -10}
---- !u!1 &182822763
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 182822764}
-  - component: {fileID: 182822765}
-  m_Layer: 0
-  m_Name: Estudos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &182822764
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182822763}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1489504844}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &182822765
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182822763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad68a9480f843454c8fb1d8ea12701f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  passiveItemData: {fileID: 11400000, guid: 4547779fc00b5f146bcd574d031af4c3, type: 2}
 --- !u!1 &202440205
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,51 +281,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   currentChunk: {fileID: 0}
---- !u!1 &303368405
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 303368406}
-  - component: {fileID: 303368407}
-  m_Layer: 0
-  m_Name: Botas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &303368406
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303368405}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1489504844}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &303368407
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 303368405}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5eb7e9c2600e52647806ee174c23cce9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  passiveItemData: {fileID: 11400000, guid: 0fc632b9f4b61154fb6072d9e9e11227, type: 2}
 --- !u!1 &633841812
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,6 +448,7 @@ GameObject:
   - component: {fileID: 1489504845}
   - component: {fileID: 1489504846}
   - component: {fileID: 1489504847}
+  - component: {fileID: 1489504848}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -703,8 +614,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 303368406}
-  - {fileID: 182822764}
   - {fileID: 846630186}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -768,6 +677,37 @@ MonoBehaviour:
   invincibilityDuration: 0.5
   armaIndex: 0
   itemIndex: 0
+  arma2: {fileID: 1814346863548788830, guid: 928354ef98071d24f9046f95b01038de, type: 3}
+  item1: {fileID: 4744937335613730907, guid: 661cccd802ca8ef4ea4a507a2df333fb, type: 3}
+  item2: {fileID: 7847108105617359527, guid: 6a571edbfa0ddf741ab65ab3978ef626, type: 3}
+--- !u!114 &1489504848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489504839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13418ed0346e47d4fbc338abe9349607, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slotArmas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  weaponLvl: 000000000000000000000000000000000000000000000000
+  slotItens:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  itensLvl: 000000000000000000000000000000000000000000000000
 --- !u!1001 &8929192019409855571
 PrefabInstance:
   m_ObjectHideFlags: 0

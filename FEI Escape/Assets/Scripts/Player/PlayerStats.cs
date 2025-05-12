@@ -21,8 +21,6 @@ public class PlayerStats : MonoBehaviour
     [HideInInspector]
     public float currentMagnet;
 
-    public List<GameObject> spawnedWeapons;
-
     //Experience and level of the player
     [Header("Experience/Level")]
     public int experience = 0;
@@ -40,6 +38,9 @@ public class PlayerStats : MonoBehaviour
     InventoryManager inventory;
     public int armaIndex;
     public int itemIndex;
+
+    //Debug, remover(ou comentar) quando terminar de testar o inventario
+    public GameObject arma2, item1, item2;
     void Awake()
     {
         characterData = CharacterSelector.GetData();
@@ -55,6 +56,11 @@ public class PlayerStats : MonoBehaviour
         currentMagnet = characterData.Magnet;
 
         SpawnWeapon(characterData.StartingWeapon);
+
+        //Debug, remover(ou comentar) quando terminar de testar o inventario
+        SpawnWeapon(arma2);
+        SpawnItem(item1);
+        SpawnItem(item2);
     }
 
     void Update()
@@ -140,10 +146,29 @@ public class PlayerStats : MonoBehaviour
 
     public void SpawnWeapon(GameObject weapon)
     {
+        if(armaIndex >= inventory.slotArmas.Count - 1)
+        {
+            Debug.LogError("Não há mais espaço para armas");
+            return;
+        }
+
         GameObject spawnedWeapon = Instantiate(weapon, transform.position, Quaternion.identity);
         spawnedWeapon.transform.SetParent(transform);
-        spawnedWeapons.Add(spawnedWeapon);
+        inventory.AddWeapon(armaIndex, spawnedWeapon.GetComponent<ArmasController>());
+        armaIndex++;
+    }
 
-        //armaIndex++;
+    public void SpawnItem(GameObject item)
+    {
+        if(itemIndex >= inventory.slotItens.Count - 1)
+        {
+            Debug.LogError("Não há mais espaço para itens");
+            return;
+        }
+
+        GameObject spawnedItem = Instantiate(item, transform.position, Quaternion.identity);
+        spawnedItem.transform.SetParent(transform);
+        inventory.AddItem(armaIndex, spawnedItem.GetComponent<PassiveItem>());
+        itemIndex++;
     }
 }
