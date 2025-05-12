@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 529f21cd18ebe084abcae7928291f1ee, type: 3}
   m_Name: PersonagemAzul
   m_EditorClassIdentifier: 
-  startingWeapon: {fileID: 6823639096812277948, guid: 305536a1c45757640a4ebebdb2f971ae, type: 3}
+  startingWeapon: {fileID: 870127603735497714, guid: 4957dbd31848afa408dcd16c54de53da, type: 3}
   maxHealth: 1000
   recovery: 5
   moveSpeed: 5
