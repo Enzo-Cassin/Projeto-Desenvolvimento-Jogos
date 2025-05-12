@@ -131,4 +131,9 @@ public class PlayerStats : MonoBehaviour
             }
         }
     }
+
+    public void SpawnWeapon()
+    {
+            
+    }
 }
