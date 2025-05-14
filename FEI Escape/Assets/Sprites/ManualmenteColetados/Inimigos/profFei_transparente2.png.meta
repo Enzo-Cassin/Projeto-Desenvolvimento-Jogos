@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: bfd875b7ee01d514c8bbc8623d21fe2c
+guid: 4048603473424d84c83b319925f92bef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8992042780091347674
-    second: greenfly_spritesheet_0
+      213: 8879697717689283691
+    second: profFei_transparente2_0
   - first:
-      213: -8400332166158713218
-    second: greenfly_spritesheet_1
+      213: -6646650765972360208
+    second: profFei_transparente2_1
   - first:
-      213: 4779789336270126822
-    second: greenfly_spritesheet_2
+      213: 6782316890331270396
+    second: profFei_transparente2_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: greenfly_spritesheet_0
+      name: profFei_transparente2_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 14
-        height: 16
+        x: 71
+        y: 156
+        width: 347
+        height: 653
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad2f57044472acc70800000000000000
-      internalID: 8992042780091347674
+      spriteID: b6477bf07060b3b70800000000000000
+      internalID: 8879697717689283691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: greenfly_spritesheet_1
+      name: profFei_transparente2_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1
-        width: 16
-        height: 12
+        x: 508
+        y: 156
+        width: 422
+        height: 653
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e7e72d8d6660c6b80800000000000000
-      internalID: -8400332166158713218
+      spriteID: 0f3b324085a52c3a0800000000000000
+      internalID: -6646650765972360208
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: greenfly_spritesheet_2
+      name: profFei_transparente2_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 2
-        width: 15
-        height: 11
+        x: 1063
+        y: 156
+        width: 347
+        height: 653
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,8 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6eeb491b319355240800000000000000
-      internalID: 4779789336270126822
+      spriteID: cfcc35a0741af1e50800000000000000
+      internalID: 6782316890331270396
       vertices: []
       indices: 
       edges: []
@@ -184,10 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      greenfly_spritesheet_0: 8992042780091347674
-      greenfly_spritesheet_1: -8400332166158713218
-      greenfly_spritesheet_2: 4779789336270126822
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

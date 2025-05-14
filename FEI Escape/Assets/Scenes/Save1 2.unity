@@ -338,43 +338,14 @@ MonoBehaviour:
   - waveName: Wave 2
     enemyGroups:
     - enemyName: MoscaVerde
-      enemyCount: 5
-      spawnCount: 0
-      enemyPreFab: {fileID: 1900089465946361884, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
-    - enemyName: ProfFei
-      enemyCount: 2
-      spawnCount: 0
-      enemyPreFab: {fileID: 7080828585618119956, guid: 27298d34959a436448a96fabc042cf07, type: 3}
-    - enemyName: Boleto
-      enemyCount: 3
-      spawnCount: 0
-      enemyPreFab: {fileID: 4033550537419891618, guid: f229b2531dce57348b6a75e8bf605cf0, type: 3}
-    waveQuota: 5
-    spawnInterval: 1
-    spawnCount: 0
-  - waveName: Wave 3
-    enemyGroups:
-    - enemyName: MoscaVerde
       enemyCount: 2
       spawnCount: 0
       enemyPreFab: {fileID: 1900089465946361884, guid: 87e15a08628f64b40a86966fc34f87d9, type: 3}
     - enemyName: ProfFei
       enemyCount: 1
       spawnCount: 0
-      enemyPreFab: {fileID: 7080828585618119956, guid: 27298d34959a436448a96fabc042cf07, type: 3}
-    - enemyName: Boleto
-      enemyCount: 3
-      spawnCount: 0
-      enemyPreFab: {fileID: 4033550537419891618, guid: f229b2531dce57348b6a75e8bf605cf0, type: 3}
-    - enemyName: Prova
-      enemyCount: 5
-      spawnCount: 0
-      enemyPreFab: {fileID: 6310780698828937728, guid: 4c73ebe6d9a001f4bbdb49ba817336a6, type: 3}
-    - enemyName: Computador
-      enemyCount: 4
-      spawnCount: 0
-      enemyPreFab: {fileID: 2616838019022989491, guid: fa91630999eae4c4b81805af426085f5, type: 3}
-    waveQuota: 15
+      enemyPreFab: {fileID: 1900089465946361884, guid: 1f379ce414afe6940a4a2cba455d9cec, type: 3}
+    waveQuota: 5
     spawnInterval: 1
     spawnCount: 0
   currentWaveCount: 0
