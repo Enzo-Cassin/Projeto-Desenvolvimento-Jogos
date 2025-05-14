@@ -29,7 +29,7 @@ public class ProjetilArmasComportamento : MonoBehaviour
 
     public float GetCurrentDamage()
     {
-        return currentDamage *= FindAnyObjectByType<PlayerStats>().currentmight;
+        return currentDamage *= FindAnyObjectByType<PlayerStats>().Currentmight;
     }
     protected virtual void Start()
     {
