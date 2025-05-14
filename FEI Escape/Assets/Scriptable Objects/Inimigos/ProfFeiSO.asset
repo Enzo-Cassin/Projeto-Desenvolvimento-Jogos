@@ -9,13 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5c45bd4b0fabd41829dc1f80c1719b, type: 3}
-  m_Name: LapisSO
+  m_Script: {fileID: 11500000, guid: b3dd93326ed3a9540baadc6c7a6d6a90, type: 3}
+  m_Name: ProfFeiSO
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6823639096812277948, guid: 305536a1c45757640a4ebebdb2f971ae, type: 3}
-  damage: 5
-  speed: 8
-  cooldownDuration: 2
-  pierce: 1
-  level: 1
-  nextLevelPrefab: 0
+  moveSpeed: 1.5
+  maxHealth: 50
+  damage: 100
