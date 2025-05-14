@@ -15,7 +15,7 @@ public class PlayerCollector : MonoBehaviour
 
     void Update()
     {
-        playerCollector.radius = player.CurrentMagnet;
+        playerCollector.radius = player.currentMagnet;
     }
     void OnTriggerEnter2D(Collider2D col)
     {

@@ -7,21 +7,12 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Game.unity
-    guid: 702f86b3825e0c0489967a18c5a0c3eb
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/TesteMenu.unity
     guid: d71780bda8d770f47971f3e34cc57d8f
   - enabled: 1
     path: Assets/Scenes/Save1.unity
     guid: ac395d34eed45bc4db4e63bf91a9ad7b
-  - enabled: 1
-    path: Assets/Scenes/1_Entrada.unity
-    guid: 0d4aedff2406eda40bd53c9ca2bff39c
-  - enabled: 1
-    path: Assets/Scenes/2_Capela.unity
-    guid: e409b744e5e52584c9e642802d4740bf
-  - enabled: 1
-    path: Assets/Scenes/3_Corporativo.unity
-    guid: d9a66c006a59d9a40ae14f5b9be813b8
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
