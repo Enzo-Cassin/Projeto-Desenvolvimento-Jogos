@@ -244,7 +244,7 @@ public class GameManager : MonoBehaviour
         int seconds = Mathf.FloorToInt(stopwatchTime % 60);
         //stopwatchDisplay.text= ("Olá");
         // Update the stopwatch text to display the elapsed time
-        stopwatchDisplay.text = string.Format("{0:00}:{1:00} Sobreviva por X", minutes, seconds);
+        stopwatchDisplay.text = $"{minutes:00}:{seconds:00} Sobreviva por 30 segundos";
     }
     public void StartLevelUp()
     {

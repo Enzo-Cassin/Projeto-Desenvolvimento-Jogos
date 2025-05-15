@@ -9,13 +9,13 @@ public class SceneController : MonoBehaviour
         if (name == "Menu"){
             SceneManager.LoadScene("Menu");
         }
-        else if (name == "1_Entrada"){
+        else if (name == "Entrada"){
             SceneManager.LoadScene("Entrada");
         }
-        else if (name == "2_Capela"){
+        else if (name == "Capela"){
             SceneManager.LoadScene("Capela");
         }
-        else if (name == "3_Corporativo"){
+        else if (name == "Estagio"){
             SceneManager.LoadScene("Estagio");
         }
         else if (name == "TCC"){

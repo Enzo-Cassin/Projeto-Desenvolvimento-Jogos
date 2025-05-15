@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      computador_spriteSheet_transparente_0: -9170202045540237604
+      computador_spriteSheet_transparente_1: 6959087795691198352
+      computador_spriteSheet_transparente_2: 446530762699735288
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
